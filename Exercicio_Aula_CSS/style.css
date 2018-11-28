@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+  max-height: 100vh;
+}
+
+#container img {
+  margin: 10px;
+  border: 3px solid red;
+  box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
+  max-width: 25vw;
+}
+
+.text-custom {
+  color: white;
+  text-align: center; 
+}
